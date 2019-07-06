@@ -73,40 +73,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-// $config['mongo_db']['active'] = 'default';
-
-// $config['mongo_db']['default']['no_auth'] = FALSE;
-// $config['mongo_db']['default']['hostname'] = 'localhost';
-// $config['mongo_db']['default']['port'] = '27017';
-// $config['mongo_db']['default']['username'] = 'root';
-// $config['mongo_db']['default']['password'] = 'dimuthu1996';
-// $config['mongo_db']['default']['database'] = 'Ajinco';
-// $config['mongo_db']['default']['db_debug'] = TRUE;
-// $config['mongo_db']['default']['return_as'] = 'array';
-// $config['mongo_db']['default']['write_concerns'] = (int)1;
-// $config['mongo_db']['default']['journal'] = TRUE;
-// $config['mongo_db']['default']['read_preference'] = NULL;
-// $config['mongo_db']['default']['read_preference_tags'] = NULL;
-
-// $config['mongo_db']['test']['no_auth'] = FALSE;
-// $config['mongo_db']['test']['hostname'] = 'localhost';
-// $config['mongo_db']['test']['port'] = '27017';
-// $config['mongo_db']['test']['username'] = 'root';
-// $config['mongo_db']['test']['password'] = 'dimuthu1996';
-// $config['mongo_db']['test']['database'] = 'Ajinco';
-// $config['mongo_db']['test']['db_debug'] = TRUE;
-// $config['mongo_db']['test']['return_as'] = 'array';
-// $config['mongo_db']['test']['write_concerns'] = (int)1;
-// $config['mongo_db']['test']['journal'] = TRUE;
-// $config['mongo_db']['test']['read_preference'] = NULL;
-// $config['mongo_db']['test']['read_preference_tags'] = NULL;
-
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
+	'username' => 'root',
 	'password' => '',
-	'database' => '',
+	'database' => 'ajinco',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
